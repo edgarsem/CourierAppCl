@@ -149,7 +149,6 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
-                    Recipient's phone number:
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.recipientPhone}
@@ -161,7 +160,6 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
-                    Recipient's address:
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.recipientAddress.substring(10)}
