@@ -113,7 +113,6 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
-                    Sender's phone number:
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.userPhone}
