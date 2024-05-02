@@ -22,6 +22,7 @@ function DeliveryHistory({ navigation }) {
 
             return () => {
             };
+        
         }, [])
     );
 
@@ -172,7 +173,6 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
-                    Delivery distance:
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.distance} km

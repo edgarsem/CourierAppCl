@@ -12,6 +12,7 @@ function DeliveryCompletedScreen({ navigation, route }) {
     const [ delivery, setDelivery ] = useState()
 
     useEffect(() => {
+        console.log("lol");
         const getDelivery = async () => {
             try {
                 const temp = await handleGetDelivery(deliveryId);
@@ -31,6 +32,7 @@ function DeliveryCompletedScreen({ navigation, route }) {
             (error == '[FirebaseError: Firebase: Error.]') ? alert(''.message) : alert(error.message);
             console.log("", error);
         }
+        console.log('TEST');
     };
 
 
