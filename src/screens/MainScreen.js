@@ -58,7 +58,7 @@ function MainScreen({ navigation }) {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                     }}>
-                        <Entypo name='text-document' size={100} color='#00A9FF'/>
+                        <Entypo name='text-document' size={110} color='#00A9FF'/>
                         <Text style={styles.titleStyle}>Deliveries</Text>
                     </View>
                 </Pressable>
