@@ -113,6 +113,7 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
+                    Today's new feature
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.userPhone}
