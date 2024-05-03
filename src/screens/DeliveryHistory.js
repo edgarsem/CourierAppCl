@@ -181,7 +181,6 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
-                    Delivery duration:
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.duration} min
