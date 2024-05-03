@@ -193,7 +193,7 @@ return(
                         color: '#3085C3',
                         fontWeight: '600',
                     }}>
-                    Delivery costusTestus
+                    Delivery cost:
                     </Text>
                     <Text style={[styles.contentHomeTextStyle, {marginBottom: 10}]}>
                         {selectedDelivery.cost} Eur
